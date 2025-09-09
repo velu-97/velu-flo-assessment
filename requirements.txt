@@ -1,0 +1,4 @@
+nemreader
+psycopg2-binary
+python-dotenv
+pytz
