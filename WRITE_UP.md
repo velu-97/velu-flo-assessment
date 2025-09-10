@@ -45,3 +45,5 @@
 - **Environment variables for config**: Standard practice, keeps credentials out of code, easy to deploy across different environments. Exmaple file provided tells the next dev how to set their own local .env
 
 - **Separate parser and DB modules**: Separation of concerns makes testing easier and allows swapping implementations (e.g., different database or parser) without affecting other components. 
+
+- **Reading from a data folder**: For the assessment the input source did not seem to matter as much as the way the NEM files were being processed, hence the choice to just go with a 'data' folder. This should also allow the testers to dump their own files in an see if my logic holds up with much bigger files (I could only find kb sized examples from the nemreader repo)
