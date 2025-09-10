@@ -40,7 +40,7 @@ Before:
 ![Database Before](screenshots/db_before_processing.png)
 
 After:
-![Database After](screenshots/db_before_processing.png)
+![Database After](screenshots/db_after_processing.png)
 
 ### Console Output
 During execution, you'll see detailed logs showing the processing progress. Sample log output is included in the documentation for reference.
